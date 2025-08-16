@@ -3,13 +3,11 @@ Employee Performance Visualization
 Contact: 24f2005847@ds.study.iitm.ac.in
 """
 
-import io
-import base64
-import textwrap
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import textwrap
 
 # --- Generate dataset ---
 np.random.seed(42)
@@ -50,14 +48,11 @@ plt.tight_layout()
 plt.savefig("hist.png")
 plt.close()
 
-# Encode PNG as base64 to embed in HTML
-with open("hist.png", "rb") as f:
-    img_b64 = base64.b64encode(f.read()).decode("utf-8")
-
-# --- Embed chart + code in HTML ---
+# --- Read this script content for embedding ---
 with open(__file__, "r", encoding="utf-8") as f:
     code_text = f.read()
 
+# --- Write HTML with linked image ---
 html = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -87,4 +82,4 @@ html = f"""<!doctype html>
 with open("report.html", "w", encoding="utf-8") as f:
     f.write(html)
 
-print("Saved HTML with embedded chart to report.html")
+print("Saved HTML with linked chart to report.html")
