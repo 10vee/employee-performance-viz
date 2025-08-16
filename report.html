@@ -16,6 +16,7 @@
 
   <h2 class="section-title">Histogram of Departments</h2>
   <img src="hist.png" alt="Department Histogram"/>
+  <p><strong>Frequency of 'Operations':</strong> 24</p>
 
   <h2 class="section-title">Python Code</h2>
   <pre><code>"""
@@ -70,7 +71,7 @@ plt.close()
 # --- Read this script content for embedding ---
 with open(__file__, "r", encoding="utf-8") as f:
     code_text = f.read()
-# filter out the embedded frequency line from the code snippet
+# filter out the HTML frequency line from code snippet
 code_lines = code_text.splitlines()
 code_text = "\n".join(code_lines)
 
@@ -104,6 +105,5 @@ with open("report.html", "w", encoding="utf-8") as f:
     f.write(html)
 
 print("Saved HTML with linked chart to report.html")</code></pre>
-  <p><strong>Frequency of 'Operations':</strong> 24</p>
 </body>
 </html>
