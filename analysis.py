@@ -76,7 +76,7 @@ html = f"""<!doctype html>
   <p><strong>Frequency of 'Operations':</strong> {ops_count}</p>
 
   <h2 class="section-title">Histogram of Departments</h2>
-  <img src="data:image/png;base64,{img_b64}" alt="Department Histogram"/>
+  <img src="hist.png" alt="Department Histogram"/>
 
   <h2 class="section-title">Python Code</h2>
   <pre><code>{textwrap.dedent(code_text)}</code></pre>
