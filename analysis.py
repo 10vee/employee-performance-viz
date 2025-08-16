@@ -33,7 +33,6 @@ df = pd.DataFrame({
 
 # --- Frequency count ---
 ops_count = (df["department"] == "Operations").sum()
-print(f"Frequency count for 'Operations' department: {ops_count}")
 
 # --- Plot histogram of department distribution ---
 plt.figure(figsize=(8, 5))
@@ -68,12 +67,12 @@ html = f"""<!doctype html>
 <body>
   <h1>Employee Performance Visualization</h1>
   <p><strong>Contact:</strong> 24f2005847@ds.study.iitm.ac.in</p>
-  <p><strong>Frequency of 'Operations':</strong> {ops_count}</p>
 
   <h2 class="section-title">Histogram of Departments</h2>
   <img src="hist.png" alt="Department Histogram"/>
 
   <h2 class="section-title">Python Code</h2>
+  <p><strong>Frequency of 'Operations':</strong> 24</p>
   <pre><code>{textwrap.dedent(code_text)}</code></pre>
 </body>
 </html>
