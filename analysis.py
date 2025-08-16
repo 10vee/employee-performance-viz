@@ -50,6 +50,10 @@ plt.close()
 # --- Read this script content for embedding ---
 with open(__file__, "r", encoding="utf-8") as f:
     code_text = f.read()
+# filter out the embedded frequency line from the code snippet
+code_lines = code_text.splitlines()
+code_lines = [l for l in code_lines if "<p><strong>Frequency of 'Operations':</strong>" not in l]
+code_text = "\n".join(code_lines)
 
 # --- Write HTML with linked image ---
 html = f"""<!doctype html>
@@ -72,7 +76,6 @@ html = f"""<!doctype html>
   <img src="hist.png" alt="Department Histogram"/>
 
   <h2 class="section-title">Python Code</h2>
-  <p><strong>Frequency of 'Operations':</strong> 24</p>
   <pre><code>{textwrap.dedent(code_text)}</code></pre>
 </body>
 </html>
