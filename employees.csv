@@ -1,0 +1,101 @@
+employee_id,department,region,performance_score,years_experience,satisfaction_rating
+EMP001,Finance,Asia Pacific,74.34,7,4.6
+EMP002,R&D,Latin America,67.17,5,4.3
+EMP003,Marketing,North America,71.87,9,3.6
+EMP004,IT,Europe,71.98,5,3.1
+EMP005,Finance,Latin America,82.42,7,3.9
+EMP006,R&D,Middle East & Africa,67.82,9,4.6
+EMP007,Finance,North America,72.1,12,3.0
+EMP008,HR,Middle East & Africa,75.02,5,4.9
+EMP009,Operations,Latin America,72.5,1,3.0
+EMP010,Operations,Middle East & Africa,76.01,10,4.7
+EMP011,Finance,North America,70.82,10,3.8
+EMP012,Sales,North America,73.44,1,2.6
+EMP013,Operations,Latin America,79.72,15,3.1
+EMP014,R&D,Europe,63.48,2,4.7
+EMP015,R&D,Europe,72.87,14,4.1
+EMP016,R&D,Middle East & Africa,72.85,6,3.7
+EMP017,Marketing,Asia Pacific,79.37,9,2.2
+EMP018,IT,Middle East & Africa,70.19,8,4.8
+EMP019,Marketing,Latin America,77.22,13,5.0
+EMP020,R&D,Latin America,80.82,5,5.0
+EMP021,Operations,Latin America,57.2,1,3.4
+EMP022,Finance,Latin America,81.35,13,4.1
+EMP023,R&D,Latin America,64.12,7,4.1
+EMP024,Marketing,North America,63.25,15,2.7
+EMP025,IT,Europe,48.96,5,3.9
+EMP026,Operations,Latin America,65.57,6,4.5
+EMP027,R&D,Asia Pacific,71.96,13,4.3
+EMP028,IT,Asia Pacific,68.93,7,3.0
+EMP029,IT,Asia Pacific,68.3,3,3.2
+EMP030,Finance,Asia Pacific,63.1,12,4.4
+EMP031,Operations,North America,78.94,10,4.2
+EMP032,R&D,Asia Pacific,79.67,3,2.2
+EMP033,Finance,Latin America,75.34,5,2.1
+EMP034,Sales,Middle East & Africa,56.91,6,3.7
+EMP035,Sales,Asia Pacific,90.19,9,3.4
+EMP036,Operations,North America,73.18,13,3.6
+EMP037,Marketing,North America,76.32,14,3.5
+EMP038,Finance,Asia Pacific,60.01,12,4.5
+EMP039,Operations,Middle East & Africa,71.91,5,3.9
+EMP040,Marketing,Asia Pacific,75.31,15,4.0
+EMP041,Finance,North America,70.87,1,2.9
+EMP042,IT,Europe,78.98,14,1.4
+EMP043,Finance,Latin America,82.4,14,4.6
+EMP044,HR,North America,61.25,14,5.0
+EMP045,R&D,Asia Pacific,78.8,4,3.6
+EMP046,Operations,Latin America,75.15,5,4.0
+EMP047,Marketing,Asia Pacific,71.96,12,4.0
+EMP048,IT,Asia Pacific,59.43,10,5.0
+EMP049,IT,Europe,83.84,10,4.4
+EMP050,R&D,Latin America,75.17,5,4.1
+EMP051,Sales,Latin America,57.73,7,3.8
+EMP052,Operations,Europe,70.05,4,3.8
+EMP053,Sales,North America,74.62,1,2.8
+EMP054,HR,Asia Pacific,76.05,14,3.5
+EMP055,IT,Middle East & Africa,70.98,14,4.4
+EMP056,HR,Asia Pacific,74.73,5,3.6
+EMP057,Finance,Asia Pacific,88.95,7,3.8
+EMP058,R&D,North America,84.37,10,3.0
+EMP059,Finance,Asia Pacific,64.4,10,4.1
+EMP060,Marketing,Europe,67.22,6,2.8
+EMP061,Marketing,Europe,71.11,5,4.0
+EMP062,R&D,Latin America,58.01,4,3.7
+EMP063,Operations,Middle East & Africa,61.27,2,2.6
+EMP064,Marketing,Asia Pacific,59.03,4,4.5
+EMP065,R&D,Asia Pacific,62.82,15,3.7
+EMP066,IT,North America,83.12,10,5.0
+EMP067,Finance,Europe,65.16,10,4.8
+EMP068,Operations,Middle East & Africa,63.78,3,3.2
+EMP069,Finance,Latin America,79.06,10,3.2
+EMP070,Sales,Europe,68.41,1,3.0
+EMP071,Operations,Latin America,75.35,8,2.7
+EMP072,R&D,North America,66.17,5,3.5
+EMP073,Finance,North America,57.58,13,4.8
+EMP074,Operations,Asia Pacific,75.74,4,2.5
+EMP075,Operations,Middle East & Africa,59.59,8,4.4
+EMP076,Operations,Latin America,67.92,7,4.3
+EMP077,Operations,Europe,66.14,2,4.2
+EMP078,Finance,North America,73.56,1,4.3
+EMP079,Marketing,Asia Pacific,67.55,12,3.0
+EMP080,Finance,Asia Pacific,70.98,11,4.3
+EMP081,HR,Latin America,59.52,4,3.4
+EMP082,Operations,North America,88.0,8,2.1
+EMP083,Marketing,Middle East & Africa,62.4,12,3.8
+EMP084,Finance,North America,81.61,2,3.2
+EMP085,Marketing,Latin America,73.2,3,4.8
+EMP086,Marketing,Latin America,73.13,12,3.6
+EMP087,Operations,North America,74.84,1,3.8
+EMP088,Operations,Latin America,56.96,1,4.1
+EMP089,HR,North America,79.73,13,3.6
+EMP090,IT,Europe,67.91,3,3.7
+EMP091,Finance,North America,81.68,11,4.4
+EMP092,Operations,North America,70.79,5,3.1
+EMP093,Operations,Latin America,69.0,12,3.3
+EMP094,IT,Latin America,61.67,3,3.1
+EMP095,Operations,Asia Pacific,65.88,1,4.8
+EMP096,IT,Asia Pacific,75.38,1,3.3
+EMP097,IT,Europe,61.54,8,3.7
+EMP098,Marketing,Asia Pacific,56.08,10,3.4
+EMP099,Finance,North America,65.14,11,3.6
+EMP100,Finance,Latin America,78.72,12,3.3
