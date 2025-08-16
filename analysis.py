@@ -77,6 +77,7 @@ html = f"""<!doctype html>
 
   <h2 class="section-title">Python Code</h2>
   <pre><code>{textwrap.dedent(code_text)}</code></pre>
+  <p><strong>Frequency of 'Operations':</strong> {ops_count}</p>
 </body>
 </html>
 """
